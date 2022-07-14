@@ -1,5 +1,5 @@
 locals {
-  git_teamspersonal = tomap(yamldecode(file("users.yaml")))["teams"]
+  
 
   terra_teams = tomap(yamldecode(file("terrademouser.yaml")))["teams"]
 
